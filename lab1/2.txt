@@ -14,7 +14,7 @@ c.  http://localhost/lw1/php_is_a_server_scripting_language.php
 
 Status Code: 302 Found 
 Специальное поведение сервера
-Ресурс временно отсутствует
+Ресурс временно отсутствует и находится по адресу, который указан в заголовке Location
 
 d.  http://localhost/lw1/javascript_is_a_client_side_language.php?how_to_work=hardly
 
