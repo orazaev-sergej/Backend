@@ -1,0 +1,23 @@
+a.  http://localhost/lw1/mysql_is_a_database_server.html
+
+Status Code: 404 Not Found 
+Ошибка - ресурс на сервере не найден
+Для решения нужно добавить ресурс на сервер
+
+b.  http://localhost/lw1/nginx_is_fast_http_server.txt
+
+Status Code: 200 OK 
+Специальное поведение сервера
+Запрос выполнен успешно
+
+c.  http://localhost/lw1/php_is_a_server_scripting_language.php
+
+Status Code: 302 Found 
+Специальное поведение сервера
+Ресурс временно отсутствует
+
+d.  http://localhost/lw1/javascript_is_a_client_side_language.php?how_to_work=hardly
+
+Status Code: 400(Bad request)
+Ошибка - неправильный запрос клиента
+Для решения необходимо в запросе исправить "hardly" на "hard"
