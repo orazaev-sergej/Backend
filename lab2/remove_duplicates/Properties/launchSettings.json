@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "remove_duplicates": {
+      "commandName": "Project",
+      "commandLineArgs": "\"A A a A a AA  afsafd asdf asd   asfa fasf a a fa ASf\""
+    }
+  }
+}
