@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace remove_duplicates
 {
@@ -13,21 +14,7 @@ namespace remove_duplicates
                 Environment.Exit(1);
             }
 
-            string str = args[ 0 ];
-
-            for ( int i = 0; i < str.Length; i++ )
-            {
-                for ( int j = i + 1; j < str.Length; j++ )
-                {
-                    if ( str[ i ] == str[ j ] )
-                    {
-                        str = str.Remove( j, 1 );
-                        j--;
-                    }
-                }
-            }
-
-            Console.WriteLine( str );
+            Console.WriteLine( args[ 0 ].Distinct().ToArray() );
 
         }
     }
