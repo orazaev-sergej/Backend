@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Translator", "Translator.csproj", "{7C697EE8-DEF0-4522-BF84-0FE9993F2643}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranslatorTests", "..\TranslatorTests\TranslatorTests.csproj", "{2A52F205-13F2-48DB-86E0-402FE8D2ECC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C697EE8-DEF0-4522-BF84-0FE9993F2643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C697EE8-DEF0-4522-BF84-0FE9993F2643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C697EE8-DEF0-4522-BF84-0FE9993F2643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C697EE8-DEF0-4522-BF84-0FE9993F2643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A52F205-13F2-48DB-86E0-402FE8D2ECC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A52F205-13F2-48DB-86E0-402FE8D2ECC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A52F205-13F2-48DB-86E0-402FE8D2ECC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A52F205-13F2-48DB-86E0-402FE8D2ECC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AABB8E5D-400F-4A1D-95ED-DCFB6CB7D90D}
+	EndGlobalSection
+EndGlobal
