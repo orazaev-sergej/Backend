@@ -12,7 +12,7 @@ namespace TranslatorTests
         [TestMethod]
         public void InputRussianWord_TranslationIntoEnglishReturned()
         {
-            string word = "привет";
+            string word = "РїСЂРёРІРµС‚";
             string expected = "hello";
 
             string result = dictionary.Translate(word);
@@ -23,7 +23,7 @@ namespace TranslatorTests
         public void InputEnglishWord_TranslationIntoRussianReturned()
         {
             string word = "hello";
-            string expected = "привет";
+            string expected = "РїСЂРёРІРµС‚";
 
             string result = dictionary.Translate(word);
 
@@ -42,7 +42,7 @@ namespace TranslatorTests
         [TestMethod]
         public void UnknownRussianWord_NullReturned()
         {
-            string word = "неизвестное";
+            string word = "РЅРµРёР·РІРµСЃС‚РЅРѕРµ";
             string expected = null;
 
             string result = dictionary.Translate(word);
